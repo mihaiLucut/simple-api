@@ -6,4 +6,5 @@ import com.example.demo_api.model.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
+    // Hello, this is my comment
 }
